@@ -1,0 +1,14 @@
+.content {
+    margin-top: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-family: 'proxima_nova_bl';
+}
+
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

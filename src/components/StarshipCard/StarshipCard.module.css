@@ -1,0 +1,58 @@
+.card {
+    border: 1px solid #444;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 7px;
+    padding: 5px;
+    width: 165px;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.name {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.price {
+    font-family: 'proxima_nova_bl';
+    font-size: 18px;
+    color: #ebed11;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+
+.basket {
+    border-radius: 7px;
+    padding: 4px;
+    cursor: pointer;
+    background-color: #ebed11;
+    color: #444444;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.basket.active {
+    border: 1px solid #ebed11;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.comparison {
+    cursor: pointer;
+}

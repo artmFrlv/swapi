@@ -1,0 +1,39 @@
+.field {
+    padding: 5px;
+    margin: 5px;
+    border-bottom: 1px #ebed11 solid;
+}
+
+.fields {
+    margin-top: 300px;
+    margin-right: 20px;
+    width: 160px;
+}
+
+.comparison {
+    display: flex;
+    flex-direction: row;
+}
+
+.starships {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.starships::-webkit-scrollbar {
+    height: 4px;
+    background-color: #444444;
+}
+
+.starships::-webkit-scrollbar-thumb {
+    background-color: #ebed11;
+    border-radius: 9em;
+}

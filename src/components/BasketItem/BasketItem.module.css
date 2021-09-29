@@ -1,0 +1,47 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 7px;
+    border: 1px solid #444444;
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.name {
+    margin-left: -50px;
+}
+
+.all {
+    font-family: 'proxima_nova_bl';
+}
+
+.sub {
+    font-size: 12px;
+}
+
+.btns {
+    margin-top: 10px;
+}
+
+.btn {
+    border-radius: 8px;
+    height: 25px;
+    padding: 0 12px;
+    background-color: #ebed11;
+    color: #444444;
+    font-family: 'proxima_nova_bl';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.count {
+    margin: 0 10px;
+}
+
+.remove {
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}

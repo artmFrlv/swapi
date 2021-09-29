@@ -1,0 +1,11 @@
+<svg height="640pt" viewBox="-20 -40 640 640" width="640pt" xmlns="http://www.w3.org/2000/svg">
+    <path d="m480 258.667969h60v300h-60zm0 0"/>
+    <path d="m200 118.667969h60v440h-60zm0 0"/>
+    <path d="m340-1.332031h60v560h-60zm0 0"/>
+    <path d="m60 358.667969h60v200h-60zm0 0"/>
+    <style>
+        path {
+            fill: #ebed11;
+        }
+    </style>
+</svg>
